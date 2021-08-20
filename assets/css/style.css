@@ -1403,6 +1403,10 @@ blockquote {
     height: 300px;
   }
 
+  lottie-player {
+    width: 400px;
+    height: 400px;
+  }
 
   /* Navbar */
   nav {
@@ -1486,6 +1490,11 @@ blockquote {
     width: 380px;
     height: 300px;
   }
+
+  lottie-player {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 /** Width between 320px to 0
@@ -1496,6 +1505,11 @@ blockquote {
   iframe {
     width: 300px;
     height: 250px;
+  }
+
+  lottie-player {
+    width: 280px;
+    height: 280px;
   }
 
   /* Navbar */
