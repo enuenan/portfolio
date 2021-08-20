@@ -630,11 +630,13 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  /* border: 1px solid #b8a07e; */
+  border: 1px solid #b19f9f;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  /* background-color: #b8a07e; */
+  background-color: #106f17;
 }
 
 /*--------------------------------------------------------------
@@ -669,7 +671,8 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: #106f17;
 }
 
 #portfolio #portfolio-flters li:last-child {
