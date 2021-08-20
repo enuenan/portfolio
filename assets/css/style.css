@@ -1480,10 +1480,22 @@ blockquote {
   }
 }
 
+@media (max-width: 400px) {
+  iframe {
+    width: 380px;
+    height: 300px;
+  }
+}
+
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 @media (max-width: 320px) {
+
+  iframe {
+    width: 300px;
+    height: 250px;
+  }
 
   /* Navbar */
   nav {
