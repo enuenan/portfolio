@@ -66,7 +66,7 @@ p {
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #d4cbbf;
   color: #fff;
 }
 
@@ -844,7 +844,8 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: #106f17;
   transition: all 0.5s ease-in-out 0s;
 }
 
