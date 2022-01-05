@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Moammer Farshid Enan - Portfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="#0b6a7d" name="keywords" />
 
-	<title>Moammer Farshid Enan - Portfolio</title>
-	<meta content="" name="description">
-	<meta content="" name="keywords">
-	<meta content="#0b6a7d" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/LogoMakr-4CEFtI.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-	<!-- Favicons -->
-	<link href="assets/img/LogoMakr-4CEFtI.png" rel="icon">
-	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
 
-	<!-- Google Fonts -->
-	<link
-		href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
-		rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-	<!-- Vendor CSS Files -->
-	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-	<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-	<!-- Template Main CSS File -->
-	<link href="assets/css/style.css" rel="stylesheet">
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-	<!-- =======================================================
+    <!-- =======================================================
   * Template Name: Folio - v4.3.0
   * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-	<style>
-		i {
-			color: #106f17 !important
-		}
-	</style>
-</head>
+    <style>
+      i {
+        color: #106f17 !important;
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo"
+          ><img src="assets/img/LogoMakr.png" alt="" class="img-fluid"
+        /></a>
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
 
-	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top ">
-		<div class="container d-flex align-items-center justify-content-between">
-
-			<a href="index.html" class="logo"><img src="assets/img/LogoMakr.png" alt="" class="img-fluid"></a>
-			<!-- Uncomment below if you prefer to use an text logo -->
-			<!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
-
-			<nav id="navbar" class="navbar">
-				<ul>
-					<li>
-						<a class="nav-link scrollto active" href="#hero" style="color: #106f17 !important">Home</a>
-					</li>
-					<li>
-						<a class="nav-link scrollto" href="#about" style="color: #106f17 !important">About</a>
-					</li>
-					<li>
-						<a class="nav-link  scrollto" href="#portfolio" style="color: #106f17 !important">Portfolio</a>
-					</li>
-					<li>
-						<a class="nav-link  scrollto" href="#journal" style="color: #106f17 !important">Blog</a>
-					</li>
-					<!-- <li class="dropdown">
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a
+                class="nav-link scrollto active"
+                href="#hero"
+                style="color: #106f17 !important"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="#about"
+                style="color: #106f17 !important"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="#portfolio"
+                style="color: #106f17 !important"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="#journal"
+                style="color: #106f17 !important"
+                >Blog</a
+              >
+            </li>
+            <!-- <li class="dropdown">
 						<a href="#"><span>Drop Down</span>
 							<i class="bi bi-chevron-down"></i>
 						</a>
@@ -89,89 +122,118 @@
 							<li><a href="#">Drop Down 4</a></li>
 						</ul>
 					</li> -->
-					<li><a class="nav-link scrollto" href="#contact" style="color: #106f17 !important">Contact</a></li>
-				</ul>
-				<i class="bi bi-list mobile-nav-toggle"></i>
-			</nav><!-- .navbar -->
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="#contact"
+                style="color: #106f17 !important"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-		</div>
-	</header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1 style="color: #0b6a7d !important">
+            I'm
+            <span
+              class="typed"
+              data-typed-items="Moammer Farshid Enan, Laravel Web Developer"
+            ></span>
+          </h1>
+          <p style="color: #106f17 !important">
+            <strong>Laravel Web Developer</strong>
+          </p>
 
-	<!-- ======= Hero Section ======= -->
-	<div id="hero" class="home">
-		<div class="container">
-			<div class="hero-content">
-				<h1 style="color: #0b6a7d !important">I'm <span class="typed"
-						data-typed-items="Moammer Farshid Enan, Laravel Web Developer"></span>
-				</h1>
-				<p style="color: #106f17 !important"> <strong>Laravel Web Developer</strong></p>
+          <ul class="list-unstyled list-social">
+            <li>
+              <a href="https://github.com/enuenan" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/moammerfarshidenan"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/MoammerEnan" target="_blank">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/enuenan/?hl=en"
+                target="_blank"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/moammer-farshid/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
 
-				<ul class="list-unstyled list-social">
-					<li>
-						<a href="https://github.com/enuenan" target="_blank">
-							<i class="bi bi-github"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/moammerfarshidenan" target="_blank">
-							<i class="bi bi-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/MoammerEnan" target="_blank">
-							<i class="bi bi-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/enuenan/?hl=en" target="_blank">
-							<i class="bi bi-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/moammer-farshid/" target="_blank">
-							<i class="bi bi-linkedin"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div><!-- End Hero -->
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <div id="about" class="paddsection">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="div-img-bg">
+                <div class="about-img">
+                  <img
+                    src="assets/img/IMG_1833.JPG"
+                    class="img-responsive"
+                    alt="me"
+                  />
+                </div>
+              </div>
+            </div>
 
-	<main id="main">
-		<!-- ======= About Section ======= -->
-		<div id="about" class="paddsection">
-			<div class="container">
-				<div class="row justify-content-between">
+            <div class="col-lg-7">
+              <div class="about-descr">
+                <p class="p-heading">
+                  I'm a Laravel Web Developer who love clean, simple, secure
+                  easily maintainable and moduler codes.
+                </p>
+                <p class="separator">
+                  Have the true desire to deliver maximum possible effort to get
+                  things done & strong will to learn as well as a self-motivated
+                  person. I do have the intention to serve any esteemed
+                  organization with utmost sincerity that offers challenges to
+                  accomplish missions, to achieve set goals with optimum
+                  perfection on the way to build up a career as a professional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Section -->
 
-					<div class="col-lg-4 ">
-						<div class="div-img-bg">
-							<div class="about-img">
-								<img src="assets/img/IMG_1833.JPG" class="img-responsive" alt="me">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-7">
-						<div class="about-descr">
-							<p class="p-heading">
-								I'm a Laravel Web Developer who love clean, simple, secure easily maintainable and
-								moduler codes.
-							</p>
-							<p class="separator">
-								Have the true desire to deliver maximum possible effort to get things done & strong will
-								to learn as well as a self-motivated person. I do have the intention to serve any
-								esteemed organization with utmost sincerity that offers challenges to accomplish
-								missions, to achieve set goals with optimum perfection on the way to build up a career
-								as a professional.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- End About Section -->
-
-		<!-- ======= Services Section ======= -->
-		<!-- <div id="services">
+      <!-- ======= Services Section ======= -->
+      <!-- <div id="services">
 			<div class="container">
 
 				<div class="services-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -240,20 +302,18 @@
 			</div>
 
 		</div> -->
-		<!-- End Services Section -->
+      <!-- End Services Section -->
 
-		<!-- ======= Portfolio Section ======= -->
-		<div id="portfolio" class="paddsection">
+      <!-- ======= Portfolio Section ======= -->
+      <div id="portfolio" class="paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>My Portfolio</h2>
+          </div>
+        </div>
 
-			<div class="container">
-				<div class="section-title text-center">
-					<h2>My Portfolio</h2>
-				</div>
-			</div>
-
-			<div class="container">
-
-				<!-- <div class="row">
+        <div class="container">
+          <!-- <div class="row">
 					<div class="col-lg-12 d-flex justify-content-center">
 						<ul id="portfolio-flters">
 							<li data-filter="*" class="filter-active">All</li>
@@ -264,66 +324,114 @@
 					</div>
 				</div> -->
 
-				<div class="row portfolio-container">
+          <div class="row portfolio-container">
+            <!-- 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/pixomatic_1629475757619.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>eDventure</h4>
+                <p>eDventure</p>
+                <a
+                  href="assets/img/portfolio/pixomatic_1629475757619.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="eDventure"
+                >
+                  <i class="bx bx-plus"></i>
+                </a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                >
+                  <i class="bx bx-link"></i>
+                </a>
+              </div>
+            </div>
 
-					<!-- 1 -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="assets/img/portfolio/pixomatic_1629475757619.png" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>eDventure</h4>
-							<p>eDventure</p>
-							<a href="assets/img/portfolio/pixomatic_1629475757619.png" data-gallery="portfolioGallery"
-								class="portfolio-lightbox preview-link" title="eDventure">
-								<i class="bx bx-plus"></i>
-							</a>
-							<a href="portfolio-details.html" class="details-link" title="More Details">
-								<i class="bx bx-link"></i>
-							</a>
-						</div>
-					</div>
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <img
+                src="assets/img/portfolio/pixomatic_1629477345430.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Docror's Blog</h4>
+                <p>Docror's Blog</p>
+                <a
+                  href="assets/img/portfolio/pixomatic_1629477345430.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Docror's Blog"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
 
-					<!-- 2 -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-						<img src="assets/img/portfolio/pixomatic_1629477345430.png" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Docror's Blog</h4>
-							<p>Docror's Blog</p>
-							<a href="assets/img/portfolio/pixomatic_1629477345430.png" data-gallery="portfolioGallery"
-								class="portfolio-lightbox preview-link" title="Docror's Blog"><i
-									class="bx bx-plus"></i></a>
-							<a href="portfolio-details.html" class="details-link" title="More Details"><i
-									class="bx bx-link"></i></a>
-						</div>
-					</div>
+            <!-- 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <img
+                src="assets/img/portfolio/pixomatic_1629477617026.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>EL-MO1 CARS</h4>
+                <p>EL-MO1 CARS</p>
+                <a
+                  href="assets/img/portfolio/pixomatic_1629477617026.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="EL-MO1 CARS"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
 
-					<!-- 3 -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="assets/img/portfolio/pixomatic_1629477617026.png" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>EL-MO1 CARS</h4>
-							<p>EL-MO1 CARS</p>
-							<a href="assets/img/portfolio/pixomatic_1629477617026.png" data-gallery="portfolioGallery"
-								class="portfolio-lightbox preview-link" title="EL-MO1 CARS"><i
-									class="bx bx-plus"></i></a>
-							<a href="portfolio-details.html" class="details-link" title="More Details"><i
-									class="bx bx-link"></i></a>
-						</div>
-					</div>
+            <!-- 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <img
+                src="assets/img/portfolio/pixomatic_1629477935633.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Daruchini</h4>
+                <p>Daruchini</p>
+                <a
+                  href="assets/img/portfolio/pixomatic_1629477935633.png"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link"
+                  title="Daruchini"
+                  ><i class="bx bx-plus"></i
+                ></a>
+                <a
+                  href="portfolio-details.html"
+                  class="details-link"
+                  title="More Details"
+                  ><i class="bx bx-link"></i
+                ></a>
+              </div>
+            </div>
 
-					<!-- 4 -->
-					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img src="assets/img/portfolio/pixomatic_1629477935633.png" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Daruchini</h4>
-							<p>Daruchini</p>
-							<a href="assets/img/portfolio/pixomatic_1629477935633.png" data-gallery="portfolioGallery"
-								class="portfolio-lightbox preview-link" title="Daruchini"><i class="bx bx-plus"></i></a>
-							<a href="portfolio-details.html" class="details-link" title="More Details"><i
-									class="bx bx-link"></i></a>
-						</div>
-					</div>
-
-					<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
 						<img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>Web 2</h4>
@@ -346,49 +454,52 @@
 									class="bx bx-link"></i></a>
 						</div>
 					</div> -->
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio Section -->
 
-				</div>
+      <!-- ======= Journal Section ======= -->
+      <div id="journal" class="text-left paddsection">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Personal Work</h2>
+          </div>
+        </div>
 
-			</div>
+        <div class="container">
+          <div class="journal-block">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a
+                    href="https://learn-laravel-with-enan.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/img/Photo_1625506961500.jpg"
+                      class="img-responsive"
+                      alt="img"
+                    />
+                  </a>
 
-		</div><!-- End Portfolio Section -->
+                  <div class="journal-txt">
+                    <h4>
+                      <a
+                        href="https://learn-laravel-with-enan.herokuapp.com/"
+                        target="_blank"
+                      >
+                        Learn Laravel With Enan
+                      </a>
+                    </h4>
+                    <p class="separator">
+                      To teach laravel other people i developed this website.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-		<!-- ======= Journal Section ======= -->
-		<div id="journal" class="text-left paddsection">
-
-			<div class="container">
-				<div class="section-title text-center">
-					<h2>Personal Work</h2>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="journal-block">
-					<div class="row">
-
-						<div class="col-lg-4 col-md-6">
-							<div class="journal-info">
-
-								<a href="https://learn-laravel-with-enan.herokuapp.com/" target="_blank">
-									<img src="assets/img/Photo_1625506961500.jpg" class="img-responsive" alt="img">
-								</a>
-
-								<div class="journal-txt">
-									<h4>
-										<a href="https://learn-laravel-with-enan.herokuapp.com/" target="_blank">
-											Learn Laravel With Enan
-										</a>
-									</h4>
-									<p class="separator">
-										To teach laravel other people i developed this website.
-									</p>
-
-								</div>
-
-							</div>
-						</div>
-
-						<!-- <div class="col-lg-4 col-md-6">
+              <!-- <div class="col-lg-4 col-md-6">
 							<div class="journal-info">
 
 								<a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive"
@@ -421,67 +532,91 @@
 
 							</div>
 						</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Journal Section -->
 
-					</div>
-				</div>
-			</div>
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-contact">
+                  <h2 class="mb-30">GET IN TOUCH</h2>
 
-		</div><!-- End Journal Section -->
+                  <ul class="contact-details">
+                    <li><span>616 Asian Housing Society Rd</span></li>
+                    <li><span>Chittagong</span></li>
+                    <li>
+                      <a
+                        href="https://wa.me/+8801881697754"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="Click to whatsapp me"
+                      >
+                        <i class="bi bi-whatsapp" style="font-size: 20px"></i>
+                      </a>
+                      &nbsp;
+                      <a
+                        href="https://t.me/Enan54"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="Click to telegram me"
+                      >
+                        <i class="bi bi-telegram" style="font-size: 20px"></i>
+                      </a>
+                      &nbsp;
+                      <a
+                        href="tel:"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="Click to call me"
+                      >
+                        <i class="bi bi-telephone" style="font-size: 20px"></i>
+                        +88 01881697754
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:emoammerfershid@gmail.com"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="Click to mail me"
+                      >
+                        <i class="bi bi-mailbox2" style="font-size: 20px"></i>
+                        Mail me
+                      </a>
+                    </li>
+                    <li class="mt-4">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.8184267138674!2d91.83992942789568!3d22.369827498827153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad27786bec17ff%3A0x3919bd17e921d9c5!2s616%20Asian%20Housing%20Society%20Rd%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1629467142852!5m2!1sen!2sbd"
+                        width="500"
+                        height="350"
+                        style="border: 10"
+                        allowfullscreen=""
+                        loading="lazy"
+                      >
+                      </iframe>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-		<!-- ======= Contact Section ======= -->
-		<div id="contact" class="paddsection">
-			<div class="container">
-				<div class="contact-block1">
-					<div class="row">
+              <div class="col-lg-6">
+                <lottie-player
+                  src="https://assets3.lottiefiles.com/packages/lf20_gzl797gs.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 600px; height: 600px"
+                  loop
+                  autoplay
+                >
+                </lottie-player>
 
-						<div class="col-lg-6">
-							<div class="contact-contact">
-
-								<h2 class="mb-30">GET IN TOUCH</h2>
-
-								<ul class="contact-details">
-									<li><span>616 Asian Housing Society Rd</span></li>
-									<li><span>Chittagong</span></li>
-									<li>
-										<a href="https://wa.me/+8801881697754" data-bs-toggle="tooltip"
-											data-bs-placement="top" title="Click to whatsapp me">
-											<i class="bi bi-whatsapp" style="font-size: 20px;"></i>
-										</a> &nbsp;
-										<a href="https://t.me/Enan54" data-bs-toggle="tooltip" data-bs-placement="top"
-											title="Click to telegram me">
-											<i class="bi bi-telegram" style="font-size: 20px;"></i>
-										</a> &nbsp;
-										<a href="tel:" data-bs-toggle="tooltip" data-bs-placement="top"
-											title="Click to call me">
-											<i class="bi bi-telephone" style="font-size: 20px;"></i>
-											+88 01881697754
-										</a>
-									</li>
-									<li>
-										<a href="mailto:emoammerfershid@gmail.com" data-bs-toggle="tooltip"
-											data-bs-placement="top" title="Click to mail me">
-											<i class="bi bi-mailbox2" style="font-size: 20px;"></i> Mail me
-										</a>
-									</li>
-									<li class="mt-4">
-										<iframe
-											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.8184267138674!2d91.83992942789568!3d22.369827498827153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad27786bec17ff%3A0x3919bd17e921d9c5!2s616%20Asian%20Housing%20Society%20Rd%2C%20Chittagong!5e0!3m2!1sen!2sbd!4v1629467142852!5m2!1sen!2sbd"
-											width="500" height="350" style="border:10;" allowfullscreen=""
-											loading="lazy">
-										</iframe>
-									</li>
-								</ul>
-
-							</div>
-						</div>
-
-						<div class="col-lg-6">
-
-							<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_gzl797gs.json"
-								background="transparent" speed="1" style="width: 600px; height: 600px;" loop autoplay>
-							</lottie-player>
-
-							<!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
 								<div class="row gy-3">
 
 									<div class="col-lg-6">
@@ -524,95 +659,106 @@
 
 								</div>
 							</form> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- End Contact Section -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-	</main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <div id="footer" class="text-center">
+      <div class="container">
+        <div class="socials-media text-center">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://github.com/enuenan" target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/moammerfarshidenan"
+                target="_blank"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/MoammerEnan" target="_blank">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/enuenan/?hl=en"
+                target="_blank"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/moammer-farshid/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-	<!-- ======= Footer ======= -->
-	<div id="footer" class="text-center">
-		<div class="container">
-			<div class="socials-media text-center">
-				<ul class="list-unstyled">
-					<li>
-						<a href="https://github.com/enuenan" target="_blank">
-							<i class="bi bi-github"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/moammerfarshidenan" target="_blank">
-							<i class="bi bi-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/MoammerEnan" target="_blank">
-							<i class="bi bi-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/enuenan/?hl=en" target="_blank">
-							<i class="bi bi-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/moammer-farshid/" target="_blank">
-							<i class="bi bi-linkedin"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
+        <p>&copy; Copyrights Folio. All rights reserved.</p>
+      </div>
+    </div>
+    <!-- End Footer -->
 
-			<p>&copy; Copyrights Folio. All rights reserved.</p>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
 
-		</div>
-	</div><!-- End Footer -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
 
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-		<i class="bi bi-arrow-up-short"></i>
-	</a>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
 
-	<!-- Vendor JS Files -->
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-	<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-	<script src="assets/vendor/php-email-form/validate.js"></script>
-	<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-	<script src="assets/vendor/typed.js/typed.min.js"></script>
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-	<!-- Template Main JS File -->
-	<script src="assets/js/main.js"></script>
-	<!-- Messenger Chat plugin Code -->
-	<div id="fb-root"></div>
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "109663488097244");
+      chatbox.setAttribute("attribution", "biz_inbox");
 
-	<!-- Your Chat plugin code -->
-	<div id="fb-customer-chat" class="fb-customerchat">
-	</div>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
 
-	<script>
-		var chatbox = document.getElementById('fb-customer-chat');
-		chatbox.setAttribute("page_id", "109663488097244");
-		chatbox.setAttribute("attribution", "biz_inbox");
-
-		window.fbAsyncInit = function () {
-			FB.init({
-				xfbml: true,
-				version: 'v11.0'
-			});
-		};
-
-		(function (d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-	</script>
-
-</body>
-
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </body>
 </html>
